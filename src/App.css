@@ -1,0 +1,46 @@
+.App {
+  color: balck
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBlock {
+  width: 400px;
+}
+
+.calculatedResult {
+  display: flex;
+  justify-content: start;
+}
+
+.calculatedResult p {
+  font-size: 16px;
+}
+
+.calculatedResult span {
+  color: darkred;
+}
+
+.calculatedResult-impressions {
+  margin-left: 30px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
