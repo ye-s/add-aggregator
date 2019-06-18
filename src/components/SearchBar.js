@@ -12,7 +12,7 @@ const SearchBar = props => {
   const [impressions, setImpressions] = useState(0);
 
   useEffect(() => {
-    axios.get('http://www.mocky.io/v2/5cd93aeb300000b721c014b0').then(result => {
+    axios.get('https://www.mocky.io/v2/5cd93aeb300000b721c014b0').then(result => {
       const fileData = result.data;
       convertCSVtoArray(fileData);
     });
